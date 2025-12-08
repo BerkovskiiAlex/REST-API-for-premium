@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "cors": "2.8.5",
+    "cross-env": "10.1.0",
     "dotenv": "17.2.3",
     "express": "5.2.1",
     "joi": "18.0.2",
     "mongoose": "9.0.1"
   },
   "devDependencies": {
-    "cross-env": "^10.1.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^10.1.8",
     "eslint-config-standard": "^17.1.0",
