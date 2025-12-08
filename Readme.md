@@ -1,3 +1,7 @@
+## REST API for premium project
+
+## BASE_URL=https://rest-api-for-premium.onrender.com
+
 1. **User Signup**
 
    - **Endpoint:** `POST /api/users/loginOrSignup`
