@@ -4,7 +4,7 @@
 
 1. **User Signup**
 
-   - **Endpoint:** `POST /api/users/loginOrSignup`
+   - **Endpoint:** `POST /users/loginOrSignup`
    - **Description:** Register a new user or login user.
    - **Request Body:**
      ```json
@@ -25,7 +25,7 @@
 
 2. **User UpdatePremium**
 
-   - **Endpoint:** `POST /api/users/updatePremium`
+   - **Endpoint:** `POST /users/updatePremium`
    - **Description:** Update user`s premium for 30 days.
    - **Request Body:**
      ```json
@@ -40,7 +40,7 @@
 
 3. **User CheckPremium**
 
-   - **Endpoint:** `GET /api/users/checkPremium`
+   - **Endpoint:** `GET /users/checkPremium`
    - **Description:** Check user`s premium.
    - **Request query:**
      ```json
