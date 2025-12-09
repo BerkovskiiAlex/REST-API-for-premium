@@ -45,7 +45,7 @@ const setPremium = async (req, res) => {
 };
 
 const checkPremium = async (req, res) => {
-  const { userId } = req.body;
+  const { userId } = req.query;
 
   if (!userId) {
     throw HttpError(400, "userId is required");
