@@ -42,7 +42,7 @@
 
    - **Endpoint:** `GET /api/users/checkPremium`
    - **Description:** Check user`s premium.
-   - **Request Body:**
+   - **Request query:**
      ```json
      { "userId": "string" }
      ```
